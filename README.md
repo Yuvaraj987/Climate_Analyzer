@@ -18,7 +18,6 @@ A full-stack starter application for exploring historical climate hazards.
 - Time-series chart and location map
 - MongoDB persistence with an in-memory fallback for local demos
 
-> Climate hazard definitions are configurable simplifications for demonstration, not official warnings or scientific attribution. Grid-level analysis and a documented reference period are recommended for rigorous regional studies.
 
 ## Prerequisites
 - Python 3.11+

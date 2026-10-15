@@ -2,7 +2,7 @@
 
 A full-stack starter application for exploring historical climate hazards.
 
-## Stack
+## Tech Stack
 - Frontend: React + Vite + Recharts + Leaflet
 - Backend: FastAPI + Pandas + HTTPX + Motor
 - Database: MongoDB
@@ -75,3 +75,14 @@ Content-Type: application/json
 - Historical coverage depends on the Open-Meteo dataset and requested dates.
 - Initial ingestion can take a while for multi-decade ranges. The app caches raw daily records and derived results.
 - Never present placeholder/demo data as measured observations. If a request fails, the UI displays an error.
+
+## AI Tools Used
+
+AI tools were used as development assistants during the design of the Climate Hazard Analyzer project.
+
+### 1. ChatGPT
+**Purpose:** Application design and problem-solving.
+
+**How it was used:**
+- Assisted with trend analysis logic, including annual hazard frequency and percentage change calculations.
+- Helped develop components for filters, summary cards, charts, and interactive maps.
